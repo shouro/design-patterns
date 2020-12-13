@@ -2,19 +2,19 @@ import abc
 
 
 class InterfaceFly(metaclass=abc.ABCMeta):
-    abc.abstractmethod
+    @abc.abstractmethod
     def fly(self):
         raise NotImplementedError
 
 
 class InterfaceQuack(metaclass=abc.ABCMeta):
-    abc.abstractmethod
+    @abc.abstractmethod
     def quack(self):
         raise NotImplementedError
 
 
 class InterfaceDisplay(metaclass=abc.ABCMeta):
-    abc.abstractmethod
+    @abc.abstractmethod
     def display(self):
         raise NotImplementedError
 
